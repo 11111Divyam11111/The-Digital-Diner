@@ -3,6 +3,6 @@ const app = require('./app');
 
 const server = http.createServer(app);
 
-server.listen(3001,()=>{
-    console.log("Menu service running on port 3001.")
+server.listen(3002,()=>{
+    console.log("Menu service running on port 3002.")
 });
