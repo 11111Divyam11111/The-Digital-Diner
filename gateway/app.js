@@ -13,8 +13,8 @@ app.use(express.json());
 
 // Proxy routes
 app.use('/user', expressProxy('http://localhost:3001')); // User Service
-app.use('/menu', expressProxy('http://localhost:3002')); // Menu Service
 
 app.listen(3003, () => {
     console.log('Gateway is running at port 3003.');
 });
+
