@@ -20,7 +20,7 @@ function Home() {
         <>
             <div className="flex justify-between items-center px-6 py-4 bg-gray-100">
                 <div className="flex-1 flex">
-                    <h2 className="text-2xl font-bold">The Digital Diner</h2>
+                    <Link to='/' className="text-2xl font-bold">Path to Course</Link>
                 </div>
                 <div className="flex gap-4">
                     {!isLoggedIn && (
@@ -46,6 +46,9 @@ function Home() {
 
                     )}
                 </div>
+            </div>
+            <div className='text-center text-2xl'>
+                Hola Fellas
             </div>
         </>
     );
